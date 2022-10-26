@@ -1,0 +1,37 @@
+html{
+    background-image: url(images/svbackground.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+h1 {
+    text-align: center;
+    font-size:50px;
+    margin-top: auto;
+    margin-bottom: 10px;
+    color: #e8eef1;
+}
+
+ul{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+    background-color: #057dcd;
+}
+
+li a{
+    float: left;
+    display: block;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    min-width: 60px;
+}
+
+li a:hover{
+    background-color: #43b0f1;
+}
