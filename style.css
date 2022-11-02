@@ -15,15 +15,18 @@ h1 {
 }
 
 ul{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    text-align: center;
     list-style-type: none;
     padding: 0px;
-    margin: 0px;
+    width: fit-content;
     overflow: hidden;
     background-color: #057dcd;
 }
 
 li a{
-    float: left;
     display: block;
     color: white;
     padding: 10px 15px;
