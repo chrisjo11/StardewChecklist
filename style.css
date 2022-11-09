@@ -40,15 +40,48 @@ li a:hover{
 }
 
 h2 {
-    font-size: 25px;
+    font-size: 30px;
     text-align: left;
     text-decoration: underline;
-    color: #1ab261;
+    color: #C34B27;
 }
 
 p{
     font-size:20px;
     margin-top: auto;
     margin-bottom: 10px;
-    color: #48c984;
+    color: #d36645;
+}
+.shipping{
+    display: inline-block;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    border-radius: 8px;
+    backdrop-filter: blur(10px);
+    background-color: rgba(255,255,255, 0.5);
+    box-shadow: 0 1px 12px rgba(0,0,0,0.25);
+    border: 1px solid rgba(255,255,255,0.3);
+}
+.fish{
+    display: inline-block;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    border-radius: 8px;
+    backdrop-filter: blur(10px);
+    background-color: rgba(255,255,255, 0.5);
+    box-shadow: 0 1px 12px rgba(0,0,0,0.25);
+    border: 1px solid rgba(255,255,255,0.3);
+}
+.artifacts{
+    display: inline-block;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    border-radius: 8px;
+    backdrop-filter: blur(10px);
+    background-color: rgba(255,255,255, 0.5);
+    box-shadow: 0 1px 12px rgba(0,0,0,0.25);
+    border: 1px solid rgba(255,255,255,0.3);
 }
