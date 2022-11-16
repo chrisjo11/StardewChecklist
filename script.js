@@ -1,13 +1,17 @@
 var element = document.getElementById("progressBar");
 var width = 2.5;
 let click = 1;
+let clicked = [];
 
 Array.from(document.getElementsByClassName("checkItem")).forEach(e => {
-    e.onclick = function() {
-        e.style.setProperty("text-decoration", "line-through");
-        e.style.setProperty("color", "gray");
-        width += 2.5; 
-        element.style.width = width + '%'; 
+        e.onclick = function() {
+            if(!clicked.includes(e)) {
+            e.style.setProperty("text-decoration", "line-through");
+            e.style.setProperty("color", "gray");
+            width += 2.5; 
+            element.style.width = width + '%'; 
+            clicked.push(e);
+        }
     }
 });
 
