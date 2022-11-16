@@ -41,7 +41,7 @@ li a:hover{
 
 h2 {
     font-size: 30px;
-    text-align: left;
+    text-align: center;
     text-decoration: underline;
     color: #C34B27;
 }
@@ -51,11 +51,16 @@ p{
     margin-top: auto;
     margin-bottom: 10px;
     color: #d36645;
+    text-align: center;
 }
 
-.shipping{
-    width: 350px;
-    padding-left: 10px;
+.window{
+    margin-left: 10%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    display: inline-block;
+    padding: 2%;
+    width: 30%;
     border-radius: 8px;
     backdrop-filter: blur(10px);
     background-color: rgba(255,255,255, 0.5);
@@ -63,61 +68,8 @@ p{
     border: 1px solid rgba(255,255,255,0.3);
 }
 
-.shippingItems{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    width: 350px;
-    height: 350px;
-}
-
-.fish{
-    width: 350px;
-    padding-left: 10px;
-    border-radius: 8px;
-    backdrop-filter: blur(10px);
-    background-color: rgba(255,255,255, 0.5);
-    box-shadow: 0 1px 12px rgba(0,0,0,0.25);
-    border: 1px solid rgba(255,255,255,0.3);
-}
-
-.fishItems{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    width: 350px;
-    height: 350px;
-}
-
-.artifacts{
-    width: 350px;
-    padding-left: 10px;
-    border-radius: 8px;
-    backdrop-filter: blur(10px);
-    background-color: rgba(255,255,255, 0.5);
-    box-shadow: 0 1px 12px rgba(0,0,0,0.25);
-    border: 1px solid rgba(255,255,255,0.3);
-}
-
-.artifactItems{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    width: 350px;
-    height: 350px;
-}
-
-.minerals{
-    width: 350px;
-    padding-left: 10px;
-    border-radius: 8px;
-    backdrop-filter: blur(10px);
-    background-color: rgba(255,255,255, 0.5);
-    box-shadow: 0 1px 12px rgba(0,0,0,0.25);
-    border: 1px solid rgba(255,255,255,0.3);
-}
-
-.mineralItems{
+.items{
+    margin: auto;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
