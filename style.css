@@ -39,6 +39,22 @@ li a:hover{
     background-color: #43b0f1;
 }
 
+#progressStatus {
+    height: 20px;
+    background-color: #ddd;
+    border-radius: 10px;
+  }
+    
+  #progressBar {
+    border-radius: 10px;
+    width: 0;
+    height: 20px;
+    background-color: #4CAF50;
+    text-align: center;
+    line-height: 32px;
+    color: black;
+  }
+
 h2 {
     font-size: 30px;
     text-align: center;
