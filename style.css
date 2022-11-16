@@ -1,5 +1,5 @@
-html{
-    background-image: url(images/svbackground.png);
+body{
+    background-image: url(images/svlight.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -13,6 +13,12 @@ h1 {
     text-align: center;
     margin-top: auto;
     margin-bottom: 10px;
+}
+
+.buttonContainer{
+    text-align: center;
+    padding: 10px;
+
 }
 
 ul{

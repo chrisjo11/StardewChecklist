@@ -1,5 +1,6 @@
 var element = document.getElementById("progressBar");
 var width = 2.5;
+let click = 1;
 
 Array.from(document.getElementsByClassName("checkItem")).forEach(e => {
     e.onclick = function() {
@@ -9,3 +10,22 @@ Array.from(document.getElementsByClassName("checkItem")).forEach(e => {
         element.style.width = width + '%'; 
     }
 });
+
+document.querySelector("button").onclick = function() {
+    if(click%2 != 0) {
+        console.log("hola");
+        document.body.style.backgroundImage = "url(images/svdark.png)";
+        document.body.style.backgroundRepeat = "no-repeat";
+        document.body.style.backgroundPosition = "center";
+        document.body.style.backgroundSize = "cover";
+        document.body.style.backgroundAttachment = "fixed";
+    } else if(click%2 == 0) {
+        console.log("hello");
+        document.body.style.backgroundImage = "url(images/svlight.png)";
+        document.body.style.backgroundRepeat = "no-repeat";
+        document.body.style.backgroundPosition = "center";
+        document.body.style.backgroundSize = "cover";
+        document.body.style.backgroundAttachment = "fixed";
+    }
+    click++;
+}
