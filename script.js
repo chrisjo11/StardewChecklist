@@ -1,5 +1,3 @@
-const ConfettiGenerator = require("confetti-js");
-
 var element = document.getElementById("progressBar");
 var width = 0;
 let click = 1;
